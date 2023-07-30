@@ -2,3 +2,39 @@
   margin: 0 auto;
   text-align: center;
 }
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  text-decoration: none;
+  gap: 5px;
+}
+.country-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.country-details-container img {
+  width: 80px;
+}
+.country-details-container h1 {
+  padding: 1rem;
+}
+.country-details-flag-container {
+  padding: 1rem;
+}
+.country-details-capital-container {
+  display: flex;
+  gap: 2rem;
+}
+.country-details-area-container {
+  display: flex;
+  gap: 2rem;
+}
+.country-details-borders-container {
+  display: flex;
+  gap: 2rem;
+}
